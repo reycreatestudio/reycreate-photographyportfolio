@@ -1,64 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<section id="portfolio" class="portfolio">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h2>Selected Works</h2>
 
-    <title>Reycreate Photography</title>
+    <div class="gallery">
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <div class="photo">
+            <img src="images/photo1.jpg" alt="Photography">
+        </div>
 
-<body>
+        <div class="photo">
+            <img src="images/photo2.jpg" alt="Photography">
+        </div>
 
-    <header>
-        <h1>REYCREATE</h1>
-        <p>Photography & Visual Art</p>
-    </header>
+        <div class="photo">
+            <img src="images/photo3.jpg" alt="Photography">
+        </div>
 
-    <main>
+    </div>
 
-        <section class="hero">
-            <h2>Capturing Moments.<br>Creating Stories.</h2>
-
-            <p>
-                Photography by Rey
-            </p>
-
-            <a href="#portfolio">View My Work</a>
-        </section>
+</section>
 
 
-        <section id="portfolio" class="portfolio">
+<!-- FULLSCREEN PHOTO VIEWER -->
 
-            <h2>Selected Works</h2>
+<div id="lightbox" class="lightbox">
 
-            <div class="gallery">
+    <button id="closeLightbox" class="close">
+        ×
+    </button>
 
-                <div class="photo">
-                    <img src="images/photo1.jpg" alt="Photography">
-                </div>
+    <img id="lightboxImage" src="" alt="Large photo">
 
-                <div class="photo">
-                    <img src="images/photo2.jpg" alt="Photography">
-                </div>
+</div>
 
-                <div class="photo">
-                    <img src="images/photo3.jpg" alt="Photography">
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-        <p>© 2026 Reycreate Photography</p>
-    </footer>
-
-</body>
-
-</html>
+<script src="script.js"></script>
